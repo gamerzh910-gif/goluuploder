@@ -4,16 +4,16 @@ from os import environ
 # API Configuration
 API_ID = int(os.environ.get("API_ID", "22447622"))
 API_HASH = os.environ.get("API_HASH", "543b62d58d3e723e766ba57a984ab65d")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8296583593:AAFdO5i9cj9noPqmeVZl9kbH4nEWWwmI42w")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8502304217:AAFsQtWpJ5IAcsbo9yCFwdMNwCsgIqXnFik")
 
-CREDIT = os.environ.get("CREDIT", "Upscwalebhaiya_bot")
+CREDIT = os.environ.get("CREDIT", "RAJPUT✨✨")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "CpprivateApi")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://itsgoluAPI:jrMHSipToKUEnmcp@cpprivateapi.ghhp3oz.mongodb.net/?appName=CpprivateApi")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "777756062"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7549194607"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "").split()]  # Default to owner ID
 
 # Channel Configuration
@@ -59,6 +59,7 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
